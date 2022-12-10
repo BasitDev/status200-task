@@ -1,0 +1,77 @@
+.usersDiv {
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 8px 90px 8px 19%;
+}
+.userData {
+  position: relative;
+  height: 176px;
+}
+.userImageDiv {
+  position: absolute;
+  top: 25px;
+  bottom: 25px;
+  left: 40px;
+}
+.userImage {
+  height: 125px;
+  width: 115px;
+  border-radius: 5px;
+}
+.userNames {
+  position: absolute;
+  left: 172px;
+  top: 30px;
+  bottom: 122px;
+  font-size: 20px;
+}
+.userDetails {
+  display: flex;
+  position: absolute;
+  gap: 40px;
+  top: 62px;
+  left: 172px;
+}
+.myDetails {
+  color: #a3a3a3;
+}
+.userDescription {
+  position: absolute;
+  width: 600px;
+  top: 110px;
+  left: 172px;
+  color: #a3a3a3;
+}
+
+@media only screen and (max-width: 768px) {
+  .usersDiv {
+    margin: 5px;
+  }
+  .userData {
+    /* position: relative; */
+    height: 100px;
+  }
+  .userImage {
+    height: 65px;
+    width: 60px;
+    border-radius: 5px;
+  }
+  .userImageDiv {
+    top: 17px;
+    left: 5px;
+  }
+  .userNames {
+    left: 75px;
+    top: 20px;
+    font-size: 14px;
+  }
+  .userDetails {
+    gap: 4px;
+    top: 45px;
+    left: 75px;
+    font-size: 11px;
+  }
+  .userDescription {
+    display: none;
+  }
+}
